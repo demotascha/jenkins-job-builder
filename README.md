@@ -5,7 +5,8 @@
 1. jenkins_job.ini
 
     1.1 Manage Jenkins > User (Configuration)>  API Token > Add New Token
-
+    
+    1.2 update jenkins_job.ini includes: userName, userToken, host:port
     ```
     [job_builder]
     ignore_cache=True
