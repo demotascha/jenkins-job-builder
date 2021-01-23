@@ -57,4 +57,4 @@ docker run -v "$PWD":/tmp/jenkins-job --rm -w /tmp/jenkins-job demotascha/jenkin
 
 #### CASE 3: delete
 
-docker run -v "$PWD":/tmp/jenkins-job --rm -w /tmp/jenkins-job demotascha/jenkins-job-builder:python3-alpine --conf jenkins_job.ini delete xample
+docker run -v "$PWD":/tmp/jenkins-job --rm -w /tmp/jenkins-job demotascha/jenkins-job-builder:python3-alpine --conf jenkins_job.ini delete example
